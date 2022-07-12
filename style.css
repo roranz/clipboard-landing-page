@@ -1,0 +1,180 @@
+:root {
+    font-family: 'Bai Jamjuree';
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1.2rem;
+}
+
+h2 {
+    font-size: 2.35rem;
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.7rem;
+    margin: 2.5rem 0 0 0;
+    /* margin ha valori di default != 0 */
+
+}
+
+.header p {
+    margin: auto auto 2.8rem auto;
+    font-size: 1.3rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 9rem;
+}
+
+.button-blue,
+.button-green {
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    color: #FFF;
+    font-size: 1.3rem;
+}
+
+.button-blue {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.button-green {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.snippet p {
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+}
+
+.track {
+    display: flex;
+    margin-left: -23rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.track img {
+    width: 100%;
+}
+
+.track p {
+    font-size: 1rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    margin: 0;
+}
+
+.track-group {
+    margin-left: 8rem;
+    text-align: left;
+    max-width: 22rem;
+}
+
+.access {
+    margin-top: 6rem;
+}
+
+.access p {
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    margin: 0;
+}
+
+.access>figure {
+    width: 100%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.supercharge {
+    text-align: center;
+}
+
+.supercharge span {
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    margin: 0;
+}
+
+.features-group {
+    display: flex;
+    justify-content: center;
+    max-width: 88rem;
+    text-align: center;
+    margin: auto;
+    gap: 3rem;
+}
+
+.feature-item>h3 {
+    margin: 0 0 1rem;
+}
+
+.feature-item>img {
+    margin: 3.5rem 0 2rem;
+}
+
+.feature-item {
+    max-width: 30%;
+}
+
+.logos-group{
+    display: flex;
+    max-width: 88rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10rem auto;
+}
+
+.logo-item{
+    max-width: 20%;
+}
+
+.download > span{
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+}
+.download > .download-buttons{
+    margin-top: 3rem;
+}
