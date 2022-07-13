@@ -1,6 +1,6 @@
 :root {
     font-family: 'Bai Jamjuree';
-    font-size: clamp(1rem, 0.0000rem + 0.8333vw, 4rem);
+    font-size: clamp(1rem, 0.0000rem + 0.8333vw, 3rem);
     box-sizing: border-box;
 }
 
